@@ -10,7 +10,8 @@ Additional contributions, corrections and suggestions are always welcome. You ar
 
 I hope that this research proves useful to you. If you found use in this, consider [buying me a coffee](https://ko-fi.com/linuswillner) to say thanks for pouring through all the nooks and crannies in thousands of lines of chat exports.
 
-_- The authors_
+Regards,  
+_Linus Willner, research author_
 
 
 
