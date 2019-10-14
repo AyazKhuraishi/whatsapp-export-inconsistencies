@@ -34,7 +34,7 @@ In exports, generic system messages can be distinguished as messages with a time
 
 #### Parameters
 
-See [Messages =&gt; Parameters](../list-of-inconsistencies/message-format.md#format).
+See [Messages =&gt; Parameters](message-format.md#format).
 
 ### Examples
 
@@ -64,7 +64,7 @@ Encryption system messages are emitted in both individual and group chats when e
 
 ![](../.gitbook/assets/encryption-sysmsg.png)
 
-On iOS, encryption system messages are impossible to distinguish from user messages as they use the same format as [user messages](../list-of-inconsistencies/message-format.md#format). In individual chats, the author is set to be the other party in the chat. In group chats, the author is set to be the group itself.
+On iOS, encryption system messages are impossible to distinguish from user messages as they use the same format as [user messages](message-format.md#format). In individual chats, the author is set to be the other party in the chat. In group chats, the author is set to be the group itself.
 
 On Android, encryption system messages use the same format as a generic system message.
 

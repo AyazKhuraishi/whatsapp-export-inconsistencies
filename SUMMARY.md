@@ -7,12 +7,15 @@
 * [Devices](research-information/devices.md)
 * [Format legend](research-information/format-legend.md)
 
-## List of inconsistencies
+## Inconsistencies - Messages
 
-* [Messages](list-of-inconsistencies/message-format.md)
-* [Attachments](list-of-inconsistencies/attachments.md)
+* [User messages](inconsistencies-messages/message-format.md)
+* [System messages](inconsistencies-messages/system-messages.md)
 
-## Other findings
+## Inconsistencies - Media
 
-* [System messages](other-findings/system-messages.md)
+* [Attachments \(Conformant\)](inconsistencies-media/attachments-conformant.md)
+* [Attachments \(Non-conformant\)](inconsistencies-media/attachments-non-conformant.md)
+* [Media metadata](inconsistencies-media/media.md)
+* [Media types and formats](inconsistencies-media/media-types-and-formats.md)
 

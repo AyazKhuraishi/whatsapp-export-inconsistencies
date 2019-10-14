@@ -1,8 +1,6 @@
-# Messages
+# User messages
 
-Messages can have one of two senders, user and system. This section only documents user messages; system messages are documented on the page linked below.
-
-{% page-ref page="../other-findings/system-messages.md" %}
+User messages, in the context of this research, are the messages sent by real users. In some cases, however, a system message can look exactly like a user message - more on that [here](system-messages.md#encryption). For the sake of simplicity, this example assumes that a message was sent by a real user.
 
 ### Format
 
@@ -32,14 +30,8 @@ On Android, the message timestamp is separated from the author name using a spac
 | author | Message author. |
 | message | Message content. |
 
-{% hint style="warning" %}
-#### Inconsistency
-
-The format of the timestamp is dependent on system locale and time zone.
-{% endhint %}
-
-{% hint style="warning" %}
-#### Inconsistency
+{% hint style="info" %}
+#### Message author name
 
 If the message author is saved in the contacts book, the author will be the full name of the contact \(First and last name\). Otherwise, the author will be the phone number of the sender.
 {% endhint %}
@@ -47,7 +39,13 @@ If the message author is saved in the contacts book, the author will be the full
 {% hint style="warning" %}
 #### Inconsistency
 
-Message content can span multiple lines if the message includes newlines. Android additionally exhibits this behaviour with attachments; more on that [here](attachments.md).
+The format of a message timestamp is dependent on operating system, system locale and time settings.
+{% endhint %}
+
+{% hint style="warning" %}
+#### Inconsistency
+
+Message content can span multiple lines if the message includes newlines. Android additionally exhibits this behaviour with attachments; more on that [here](../inconsistencies-media/attachments-conformant.md).
 {% endhint %}
 
 ### Examples
@@ -75,10 +73,6 @@ P.S. Nice emoji 👀
 P.S. Nice emoji 👀
 2019-01-01 12:00 - +1 (000) 000-0000: Good day!
 ```
-{% endtab %}
-
-{% tab title="" %}
-
 {% endtab %}
 {% endtabs %}
 
