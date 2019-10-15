@@ -43,7 +43,7 @@ See [Messages =&gt; Parameters](message-format.md#format).
 {% tabs %}
 {% tab title="Group" %}
 ```text
-[1.1.2019, 12.00.00] ‎You created group "John, Jill, Joe"
+[1.1.2019, 12.00.00] ‎You created group "John, Jane, Joe"
 ```
 {% endtab %}
 {% endtabs %}
@@ -53,7 +53,7 @@ See [Messages =&gt; Parameters](message-format.md#format).
 {% tabs %}
 {% tab title="Group" %}
 ```text
-2019-01-01 12:00 - ‎You created group "John, Jill, Joe"
+2019-01-01 12:00 - ‎You created group "John, Jane, Joe"
 ```
 {% endtab %}
 {% endtabs %}
@@ -75,13 +75,13 @@ On Android, encryption system messages use the same format as a generic system m
 {% tabs %}
 {% tab title="Individual" %}
 ```text
-[1.1.2019, 12.00.00] John, Jill, Joe: ‎Messages to this chat and calls are now secured with end-to-end encryption.
+[1.1.2019, 12.00.00] Jane Doe: ‎Messages to this chat and calls are now secured with end-to-end encryption.
 ```
 {% endtab %}
 
 {% tab title="Group" %}
 ```text
-[1.1.2019, 12.00.00] John, Jill, Joe: ‎Messages to this group are now secured with end-to-end encryption.
+[1.1.2019, 12.00.00] John, Jane, Joe: ‎Messages to this group are now secured with end-to-end encryption.
 ```
 {% endtab %}
 {% endtabs %}
