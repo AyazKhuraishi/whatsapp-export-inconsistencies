@@ -2,7 +2,7 @@
 
 Some attachment formats do not adhere to the [standard attachment format](attachments-conformant.md#format), and will be displayed with non-standardised formatting that is often inconsistent across operating systems. This page documents all the standard deviant media formats, namely uploaded audio on Android, documents, contacts and locations.
 
-Similar to other attachments, if an attachment has a message associated with it, Android will display it on the line below the attachment reference, but only in the event that the chat was exported with media. IOS never includes the associated message.
+In contrast to other attachments, non-conformant attachments cannot have messages associated with them, even though some formats on Android will use formatting that implies such.
 
 ## Uploaded audio on Android
 
