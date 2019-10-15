@@ -27,7 +27,7 @@ The parameters are identical to those of a [standard attachment reference](attac
 {% tabs %}
 {% tab title="Android" %}
 ```text
-AUD-20190101-WA0000.
+AUD-20190101-WA0000. (file attached)
 ```
 {% endtab %}
 {% endtabs %}
